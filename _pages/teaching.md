@@ -17,8 +17,3 @@ nav_order: 5
 
 [Data Integration using mixKernel](/data_integration_mixkernel/)
 
-# Basic biostatistics
-
-[PCA basics](/pca_basics)
-
-[Random forest basics](/randomforest-basics)
