@@ -8,7 +8,6 @@ nav_order: 5
 ---
 
 # Swedish Bioinformatics Workshop 2023
-[Installation instructions](/data_integration_container) (git repo: [https://github.com/PayamEmami/data_integration_container/](https://github.com/PayamEmami/data_integration_container/))
 
 [Data Integration using random forest](/randomforest_data_integration) (git repo: [https://github.com/PayamEmami/randomforest_data_integration](https://github.com/PayamEmami/randomforest_data_integration))
 
