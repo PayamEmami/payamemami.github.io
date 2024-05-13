@@ -23,6 +23,8 @@ nav_order: 5
 
 [Random forest basics](/randomforest-basics)
 
+[Mixed models](/linear_mixed_models/)
+
 # Big data
 
 [Nextflow lab](https://github.com/PayamEmami/nextflow-course)
