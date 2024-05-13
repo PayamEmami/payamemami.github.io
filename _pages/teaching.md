@@ -22,3 +22,5 @@ nav_order: 5
 [PCA basics](/pca_basics)
 
 [Random forest basics](/randomforest-basics)
+
+[Mixed models](/linear_mixed_models/)
