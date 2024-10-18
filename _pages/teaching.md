@@ -25,6 +25,8 @@ nav_order: 5
 
 [Mixed models](/linear_mixed_models/)
 
+[t-SNE and UMAP](/dimensionality_reduction/)
+
 # Big data
 
 [Nextflow lab](https://github.com/PayamEmami/nextflow-course)
