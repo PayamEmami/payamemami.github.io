@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-# Swedish Bioinformatics Workshop 2023
-
 [Data Integration using random forest](/randomforest_data_integration) (git repo: [https://github.com/PayamEmami/randomforest_data_integration](https://github.com/PayamEmami/randomforest_data_integration))
 
 [Data Integration using mixOmics](/mixomics_data_integration) (git repo: [https://github.com/PayamEmami/mixomics_data_integration](https://github.com/PayamEmami/mixomics_data_integration))
@@ -16,8 +14,6 @@ nav_order: 5
 [Data Integration using MOFA](/mofa_data_integration) (git repo: [https://github.com/PayamEmami/mofa_data_integration](https://github.com/PayamEmami/mofa_data_integration))
 
 [Data Integration using mixKernel](/data_integration_mixkernel) (git repo: [https://github.com/PayamEmami/data_integration_mixkernel](https://github.com/PayamEmami/data_integration_mixkernel))
-
-# Basic biostatistics
 
 [PCA basics](/pca_basics)
 
@@ -27,6 +23,7 @@ nav_order: 5
 
 [t-SNE and UMAP](/dimensionality_reduction/)
 
-# Big data
+[Introduction to Self-Organizing Maps](/self_orginizating_maps_basics/)
 
-[Nextflow lab](https://github.com/PayamEmami/nextflow-course)
+[Independent Component Analysis](/ica_basics/)
+
