@@ -38,3 +38,6 @@ Below is a collection of teaching materials covering statistical and machine lea
 
 - [Independent Component Analysis](/ica_basics/):  
   Complete mathematical derivation of ICA including contrast functions, whitening, optimization, and implementation of FastICA in R.
+
+- [XGBoost](/xgboost-basics/):  
+  Learn how XGBoost works from both an intuitive and mathematical perspective, including boosting, tree-based corrections, objective functions, and practical implementation in R.
