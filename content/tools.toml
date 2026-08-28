@@ -1,0 +1,66 @@
+type = "card"
+title = "Tools"
+description = "Open-source bioinformatics software, workflows, and infrastructure I have developed."
+
+[[items]]
+title = "MetaboIGNITER"
+subtitle = "nf-core / Nextflow"
+content = "A workflow for preprocessing mass spectrometry–based metabolomics data, including MS1 quantification and MS2-based identification."
+tags = ["Metabolomics", "Mass spectrometry", "Nextflow"]
+link = "https://nf-co.re/metaboigniter"
+
+[[items]]
+title = "Metabolinden"
+subtitle = "Nextflow"
+content = "A metabolomics preprocessing workflow for iterative parameter optimization using internal standards and repeated sample injections."
+tags = ["Metabolomics", "Quality control", "Nextflow"]
+link = "https://github.com/PayamEmami/nf-core-metabolinden"
+
+[[items]]
+title = "MetaboRAID"
+subtitle = "R package"
+content = "Rapid metabolite identification from MS1 and MS2 data, including adduct estimation, neutral-mass estimation, and spectrum merging."
+tags = ["Metabolomics", "MS1/MS2", "R"]
+link = "https://github.com/metaboraid/metaboraid"
+
+[[items]]
+title = "mirnatargetdetector"
+subtitle = "Nextflow"
+content = "A workflow using miRanda and RNAhybrid to identify candidate miRNA targets."
+tags = ["miRNA", "Nextflow", "Target prediction"]
+link = "https://github.com/PayamEmami/mirnatargetdetector"
+
+[[items]]
+title = "Mixedcirc"
+subtitle = "Circadian analysis"
+content = "Mixed-model differential circadian-rhythm analysis for RNA-seq, methylation, metabolomics, proteomics, and other data types."
+tags = ["Circadian rhythms", "Mixed models", "Omics"]
+link = "https://github.com/PayamEmami/mixedcirc"
+
+[[items]]
+title = "proteomics-rke"
+subtitle = "Cloud infrastructure"
+content = "Infrastructure for deploying Kubernetes clusters to run Nextflow-based workflows."
+tags = ["Kubernetes", "Nextflow", "Cloud"]
+link = "https://github.com/PayamEmami/proteomics-rke"
+
+[[items]]
+title = "r-kubernetes"
+subtitle = "R / Kubernetes"
+content = "A lightweight wrapper for offloading R sessions to Kubernetes."
+tags = ["R", "Kubernetes", "Cloud"]
+link = "https://github.com/PayamEmami/r-kubernetes"
+
+[[items]]
+title = "integrative_overrepresentation"
+subtitle = "Pathway analysis"
+content = "Pathway-level multi-modal integration using p-value fusion for modalities with KEGG pathway mappings."
+tags = ["Data integration", "KEGG", "Pathway analysis"]
+link = "https://github.com/PayamEmami/integrative_overrepresentation"
+
+[[items]]
+title = "distance_matrix"
+subtitle = "Scalable computation"
+content = "Methods for calculating dissimilarity matrices on large datasets using multicore execution with a controlled memory footprint."
+tags = ["Distance matrices", "Parallel computing", "Scalability"]
+link = "https://github.com/PayamEmami/distance_matrix"

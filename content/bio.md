@@ -1,0 +1,1 @@
+Bioinformatician at the **National Bioinformatics Infrastructure Sweden (NBIS)**, working across large-scale biological data analysis, mass spectrometry–based proteomics and metabolomics, statistical and machine-learning methods, reproducible workflow development, and cloud computing.

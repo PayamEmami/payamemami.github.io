@@ -1,0 +1,69 @@
+type = "card"
+title = "Teaching"
+description = "Teaching materials covering statistical and machine-learning methods, combining intuition, mathematical derivations, and practical implementations."
+
+[[items]]
+title = "Data Integration using Random Forest"
+content = "Use Random Forests to integrate multi-omics datasets, extract proximity measures, and perform downstream analyses including clustering and dimensionality reduction."
+tags = ["Data Integration", "Random Forest", "Multi-omics"]
+link = "https://payamemami.com/randomforest_data_integration/"
+
+[[items]]
+title = "Data Integration using mixOmics"
+content = "Supervised and unsupervised multi-omics integration with mixOmics, including PLS, sPLS, and DIABLO."
+tags = ["Data Integration", "mixOmics", "Multi-omics"]
+link = "https://payamemami.com/mixomics_data_integration/"
+
+[[items]]
+title = "Data Integration using MOFA"
+content = "Multi-Omics Factor Analysis from its underlying latent-factor model through practical implementation and interpretation."
+tags = ["Data Integration", "MOFA", "Latent Factors"]
+link = "https://payamemami.com/mofa_data_integration/"
+
+[[items]]
+title = "Data Integration using mixKernel"
+content = "Kernel-based data integration, custom similarity measures, and combining kernel representations with dimensionality reduction."
+tags = ["Data Integration", "Kernel Methods", "PCA"]
+link = "https://payamemami.com/data_integration_mixkernel/"
+
+[[items]]
+title = "PCA Basics"
+content = "Principal Component Analysis from first principles: geometry, variance maximization, eigenvectors, SVD, visualization, and implementation in R."
+tags = ["PCA", "Dimensionality Reduction", "R"]
+link = "https://payamemami.com/pca_basics/"
+
+[[items]]
+title = "Random Forest Basics"
+content = "A conceptual and mathematical introduction to decision trees and Random Forests, including splitting, bagging, feature randomness, and variable importance."
+tags = ["Random Forest", "Machine Learning", "R"]
+link = "https://payamemami.com/randomforest-basics/"
+
+[[items]]
+title = "Mixed Models"
+content = "Linear mixed models from GLS and variance components through ICC, REML versus ML, random effects, and practical modelling with lme4."
+tags = ["Mixed Models", "Statistics", "R"]
+link = "https://payamemami.com/linear_mixed_models/"
+
+[[items]]
+title = "t-SNE and UMAP"
+content = "Nonlinear dimensionality reduction from pairwise distances and probability distributions through detailed t-SNE and UMAP implementations."
+tags = ["t-SNE", "UMAP", "Dimensionality Reduction"]
+link = "https://payamemami.com/dimensionality_reduction/"
+
+[[items]]
+title = "Self-Organizing Maps"
+content = "The theory and practical use of Self-Organizing Maps for high-dimensional data, including training, visualization, clustering, and interpretation."
+tags = ["SOM", "Unsupervised Learning", "Omics"]
+link = "https://payamemami.com/self_orginizating_maps_basics/"
+
+[[items]]
+title = "Independent Component Analysis"
+content = "ICA from latent-variable intuition through whitening, non-Gaussianity, FastICA optimization, mathematical derivation, and implementation in R."
+tags = ["ICA", "Dimensionality Reduction", "R"]
+link = "https://payamemami.com/ica_basics/"
+
+[[items]]
+title = "XGBoost"
+content = "XGBoost from intuition to mathematics: sequential boosting, tree-based error correction, objective functions, regularization, and practical implementation in R."
+tags = ["XGBoost", "Boosting", "Machine Learning"]
+link = "https://payamemami.com/xgboost-basics/"

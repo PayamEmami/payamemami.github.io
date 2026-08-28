@@ -1,0 +1,47 @@
+[site]
+title = "Payam Emami"
+description = "Bioinformatician at National Bioinformatics Infrastructure Sweden (NBIS)"
+favicon = "/favicon.svg"
+
+[author]
+name = "Payam Emami"
+title = "Bioinformatician"
+institution = "National Bioinformatics Infrastructure Sweden (NBIS)"
+avatar = "/prof_pic.jpeg"
+
+[social]
+# Intentionally empty for now.
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Tools"
+type = "page"
+target = "tools"
+href = "/tools"
