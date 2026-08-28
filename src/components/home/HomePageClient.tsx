@@ -87,12 +87,13 @@ export default function HomePageClient({
     <div
       className="
         relative
-        max-w-6xl
+        w-full
+        max-w-[clamp(72rem,90vw,120rem)]
         mx-auto
-        px-4
-        sm:px-6
-        lg:px-8
-        py-8
+
+        px-[clamp(1rem,3vw,4rem)]
+        py-[clamp(2rem,4vh,5rem)]
+
         bg-background
         min-h-screen
         overflow-hidden
@@ -103,8 +104,27 @@ export default function HomePageClient({
 
       {/* Main homepage content sits above the animation */}
       <div className="relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-1">
+
+        {/*
+         * Fluid desktop layout:
+         *
+         * - On phones/tablets: one column
+         * - On desktop: profile gets a sensible minimum width
+         * - Main content expands and absorbs the available space
+         * - Gap scales continuously with screen size
+         */}
+        <div
+          className="
+            grid
+            grid-cols-1
+
+            lg:grid-cols-[minmax(260px,0.8fr)_minmax(0,2.2fr)]
+
+            gap-[clamp(2rem,4vw,6rem)]
+          "
+        >
+          {/* LEFT: PROFILE */}
+          <div className="min-w-0">
             <Profile
               author={data.author}
               social={data.social}
@@ -113,61 +133,81 @@ export default function HomePageClient({
             />
           </div>
 
-          <div className="lg:col-span-2 space-y-8">
+          {/* RIGHT: MAIN CONTENT */}
+          <div
+            className="
+              min-w-0
+              space-y-[clamp(2rem,4vw,4rem)]
+            "
+          >
             {data.pagesToShow.map((page) => (
               <section
                 key={page.id}
                 id={page.id}
-                className="scroll-mt-24 space-y-8"
+                className="
+                  scroll-mt-24
+                  space-y-[clamp(2rem,3vw,4rem)]
+                "
               >
+                {/* ABOUT PAGE SECTIONS */}
                 {page.type === 'about' &&
-                  page.sections.map((section: SectionConfig) => {
-                    switch (section.type) {
-                      case 'markdown':
-                        return (
-                          <About
-                            key={section.id}
-                            content={section.content || ''}
-                            title={section.title}
-                          />
-                        );
+                  page.sections.map(
+                    (section: SectionConfig) => {
+                      switch (section.type) {
+                        case 'markdown':
+                          return (
+                            <About
+                              key={section.id}
+                              content={
+                                section.content || ''
+                              }
+                              title={section.title}
+                            />
+                          );
 
-                      case 'publications':
-                        return (
-                          <SelectedPublications
-                            key={section.id}
-                            publications={
-                              section.publications || []
-                            }
-                            title={section.title}
-                            enableOnePageMode={
-                              data.enableOnePageMode
-                            }
-                          />
-                        );
+                        case 'publications':
+                          return (
+                            <SelectedPublications
+                              key={section.id}
+                              publications={
+                                section.publications || []
+                              }
+                              title={section.title}
+                              enableOnePageMode={
+                                data.enableOnePageMode
+                              }
+                            />
+                          );
 
-                      case 'list':
-                        return (
-                          <News
-                            key={section.id}
-                            items={section.items || []}
-                            title={section.title}
-                          />
-                        );
+                        case 'list':
+                          return (
+                            <News
+                              key={section.id}
+                              items={
+                                section.items || []
+                              }
+                              title={section.title}
+                            />
+                          );
 
-                      default:
-                        return null;
+                        default:
+                          return null;
+                      }
                     }
-                  })}
+                  )}
 
+                {/* PUBLICATIONS PAGE */}
                 {page.type === 'publication' && (
                   <PublicationsList
                     config={page.config}
-                    publications={page.publications}
+                    publications={
+                      page.publications
+                    }
                     embedded={true}
                   />
                 )}
 
+                {/* TEXT PAGE */}
                 {page.type === 'text' && (
                   <TextPage
                     config={page.config}
@@ -176,6 +216,7 @@ export default function HomePageClient({
                   />
                 )}
 
+                {/* CARD PAGE */}
                 {page.type === 'card' && (
                   <CardPage
                     config={page.config}
