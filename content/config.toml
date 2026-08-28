@@ -45,3 +45,9 @@ title = "Tools"
 type = "page"
 target = "tools"
 href = "/tools"
+
+[[navigation]]
+title = "Contact"
+type = "page"
+target = "contact"
+href = "/contact"
