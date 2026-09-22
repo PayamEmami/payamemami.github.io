@@ -67,3 +67,18 @@ title = "XGBoost"
 content = "XGBoost from intuition to mathematics: sequential boosting, tree-based error correction, objective functions, regularization, and practical implementation in R."
 tags = ["XGBoost", "Boosting", "Machine Learning"]
 link = "https://payamemami.com/xgboost-basics/"
+
+
+[[items]]
+title = "Similarity Network Fusion"
+content = "Similarity Network Fusion for integrating multiple data types by building sample-similarity networks, exchanging information between them, and producing a fused representation for downstream analysis."
+tags = ["SNF", "Data Integration", "Multi-omics"]
+link = "https://payamemami.com/similarity_network_fusion/"
+
+[[items]]
+title = "DBSCAN"
+content = "Density-based clustering from intuition to mathematics, including core, border, and noise points, parameter selection, implementation in R and Python, and exercises using PBMC3k single-cell data."
+tags = ["DBSCAN", "Clustering", "R", "Python"]
+link = "https://payamemami.com/dbscan/"
+
+
