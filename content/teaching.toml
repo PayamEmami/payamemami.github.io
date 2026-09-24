@@ -81,4 +81,8 @@ content = "Density-based clustering from intuition to mathematics, including cor
 tags = ["DBSCAN", "Clustering", "R", "Python"]
 link = "https://payamemami.com/dbscan/"
 
-
+[[items]]
+title = "Spectral Clustering"
+content = "Spectral clustering from graph construction and similarity matrices through graph Laplacians, eigenvectors, spectral embedding, connected components, and clustering in the embedded space."
+tags = ["Spectral Clustering", "Graph Methods", "Clustering"]
+link = "https://payamemami.com/spectral_clustering/"
