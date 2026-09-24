@@ -86,3 +86,10 @@ title = "Spectral Clustering"
 content = "Spectral clustering from graph construction and similarity matrices through graph Laplacians, eigenvectors, spectral embedding, connected components, and clustering in the embedded space."
 tags = ["Spectral Clustering", "Graph Methods", "Clustering"]
 link = "https://payamemami.com/spectral_clustering/"
+
+[[items]]
+title = "Non-negative Matrix Factorization"
+content = "NMF from intuition to mathematics, including latent components and scores, practical workflows, interpretation of W and H, and an application to leukemia gene-expression data."
+tags = ["NMF", "Dimensionality Reduction", "Gene Expression"]
+link = "https://payamemami.com/non_negative_matrix_factorization/"
+
