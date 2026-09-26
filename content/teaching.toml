@@ -93,3 +93,10 @@ content = "NMF from intuition to mathematics, including latent components and sc
 tags = ["NMF", "Dimensionality Reduction", "Gene Expression"]
 link = "https://payamemami.com/non_negative_matrix_factorization/"
 
+[[items]]
+title = "SHAP Values"
+content = "SHAP for explaining machine-learning predictions, from intuitive local and global interpretation through practical use in R and Python, Shapley values, KernelSHAP, and a worked case study."
+tags = ["SHAP", "Explainable ML", "Machine Learning", "R", "Python"]
+link = "https://payamemami.com/shap/"
+
+
