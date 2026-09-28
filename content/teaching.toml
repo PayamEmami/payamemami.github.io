@@ -100,3 +100,9 @@ tags = ["SHAP", "Explainable ML", "Machine Learning", "R", "Python"]
 link = "https://payamemami.com/shap/"
 
 
+[[items]]
+title = "Conformal Prediction"
+content = "Conformal prediction for quantifying uncertainty in machine-learning predictions, including regression intervals, classification prediction sets, calibration, practical workflows in R and Python, mathematical foundations, and exercises with health survey data."
+tags = ["Conformal Prediction", "Uncertainty", "Machine Learning", "R", "Python"]
+link = "https://payamemami.com/conformal_prediction/"
+
