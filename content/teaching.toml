@@ -112,3 +112,9 @@ title = "Diffusion Maps"
 content = "Diffusion maps for nonlinear dimensionality reduction and trajectory-like structure, from local similarity graphs and random walks through diffusion coordinates, practical use in R and Python, mathematical foundations, and exercises."
 tags = ["Diffusion Maps", "Dimensionality Reduction", "Graph Methods", "R", "Python"]
 link = "https://payamemami.com/diffusion_maps/"
+
+[[items]]
+title = "Leiden Clustering"
+content = "Leiden clustering for graph-based community detection, from nearest-neighbour graphs and intuitive community structure through practical use in R and Python, the mathematical optimization procedure, aggregation and refinement, and exercises with PBMC3k single-cell data."
+tags = ["Leiden", "Clustering", "Graph Methods", "Single-cell", "R", "Python"]
+link = "https://payamemami.com/leiden_clustering/"
