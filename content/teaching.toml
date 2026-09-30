@@ -106,3 +106,9 @@ content = "Conformal prediction for quantifying uncertainty in machine-learning 
 tags = ["Conformal Prediction", "Uncertainty", "Machine Learning", "R", "Python"]
 link = "https://payamemami.com/conformal_prediction/"
 
+
+[[items]]
+title = "Diffusion Maps"
+content = "Diffusion maps for nonlinear dimensionality reduction and trajectory-like structure, from local similarity graphs and random walks through diffusion coordinates, practical use in R and Python, mathematical foundations, and exercises."
+tags = ["Diffusion Maps", "Dimensionality Reduction", "Graph Methods", "R", "Python"]
+link = "https://payamemami.com/diffusion_maps/"
