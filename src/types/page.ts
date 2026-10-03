@@ -22,6 +22,18 @@ export interface CardItem {
     tags?: string[];
     link?: string;
     image?: string;
+
+    /*
+     * Optional grouping.
+     *
+     * Pages without groups, such as Tools, are rendered exactly
+     * as before.
+     *
+     * Teaching items can use:
+     *
+     * group = "Data Integration"
+     */
+    group?: string;
 }
 
 export interface CardPageConfig extends BasePageConfig {

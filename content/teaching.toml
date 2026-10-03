@@ -2,131 +2,179 @@ type = "card"
 title = "Teaching"
 description = "Teaching materials covering statistical and machine-learning methods, combining intuition, mathematical derivations, and practical implementations."
 
+
+# ============================================================
+# DATA INTEGRATION
+# ============================================================
+
 [[items]]
 title = "Data Integration using Random Forest"
 content = "Use Random Forests to integrate multi-omics datasets, extract proximity measures, and perform downstream analyses including clustering and dimensionality reduction."
 tags = ["Data Integration", "Random Forest", "Multi-omics"]
+group = "Data Integration"
 link = "https://payamemami.com/randomforest_data_integration/"
 
 [[items]]
 title = "Data Integration using mixOmics"
 content = "Supervised and unsupervised multi-omics integration with mixOmics, including PLS, sPLS, and DIABLO."
 tags = ["Data Integration", "mixOmics", "Multi-omics"]
+group = "Data Integration"
 link = "https://payamemami.com/mixomics_data_integration/"
 
 [[items]]
 title = "Data Integration using MOFA"
 content = "Multi-Omics Factor Analysis from its underlying latent-factor model through practical implementation and interpretation."
 tags = ["Data Integration", "MOFA", "Latent Factors"]
+group = "Data Integration"
 link = "https://payamemami.com/mofa_data_integration/"
 
 [[items]]
 title = "Data Integration using mixKernel"
 content = "Kernel-based data integration, custom similarity measures, and combining kernel representations with dimensionality reduction."
 tags = ["Data Integration", "Kernel Methods", "PCA"]
+group = "Data Integration"
 link = "https://payamemami.com/data_integration_mixkernel/"
-
-[[items]]
-title = "PCA Basics"
-content = "Principal Component Analysis from first principles: geometry, variance maximization, eigenvectors, SVD, visualization, and implementation in R."
-tags = ["PCA", "Dimensionality Reduction", "R"]
-link = "https://payamemami.com/pca_basics/"
-
-[[items]]
-title = "Random Forest Basics"
-content = "A conceptual and mathematical introduction to decision trees and Random Forests, including splitting, bagging, feature randomness, and variable importance."
-tags = ["Random Forest", "Machine Learning", "R"]
-link = "https://payamemami.com/randomforest-basics/"
-
-[[items]]
-title = "Mixed Models"
-content = "Linear mixed models from GLS and variance components through ICC, REML versus ML, random effects, and practical modelling with lme4."
-tags = ["Mixed Models", "Statistics", "R"]
-link = "https://payamemami.com/linear_mixed_models/"
-
-[[items]]
-title = "t-SNE and UMAP"
-content = "Nonlinear dimensionality reduction from pairwise distances and probability distributions through detailed t-SNE and UMAP implementations."
-tags = ["t-SNE", "UMAP", "Dimensionality Reduction"]
-link = "https://payamemami.com/dimensionality_reduction/"
-
-[[items]]
-title = "Self-Organizing Maps"
-content = "The theory and practical use of Self-Organizing Maps for high-dimensional data, including training, visualization, clustering, and interpretation."
-tags = ["SOM", "Unsupervised Learning", "Omics"]
-link = "https://payamemami.com/self_orginizating_maps_basics/"
-
-[[items]]
-title = "Independent Component Analysis"
-content = "ICA from latent-variable intuition through whitening, non-Gaussianity, FastICA optimization, mathematical derivation, and implementation in R."
-tags = ["ICA", "Dimensionality Reduction", "R"]
-link = "https://payamemami.com/ica_basics/"
-
-[[items]]
-title = "XGBoost"
-content = "XGBoost from intuition to mathematics: sequential boosting, tree-based error correction, objective functions, regularization, and practical implementation in R."
-tags = ["XGBoost", "Boosting", "Machine Learning"]
-link = "https://payamemami.com/xgboost-basics/"
-
 
 [[items]]
 title = "Similarity Network Fusion"
 content = "Similarity Network Fusion for integrating multiple data types by building sample-similarity networks, exchanging information between them, and producing a fused representation for downstream analysis."
 tags = ["SNF", "Data Integration", "Multi-omics"]
+group = "Data Integration"
 link = "https://payamemami.com/similarity_network_fusion/"
+
+
+# ============================================================
+# DIMENSIONALITY REDUCTION & REPRESENTATION
+# ============================================================
+
+[[items]]
+title = "PCA Basics"
+content = "Principal Component Analysis from first principles: geometry, variance maximization, eigenvectors, SVD, visualization, and implementation in R."
+tags = ["PCA", "Dimensionality Reduction", "R"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/pca_basics/"
+
+[[items]]
+title = "t-SNE and UMAP"
+content = "Nonlinear dimensionality reduction from pairwise distances and probability distributions through detailed t-SNE and UMAP implementations."
+tags = ["t-SNE", "UMAP", "Dimensionality Reduction"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/dimensionality_reduction/"
+
+[[items]]
+title = "Independent Component Analysis"
+content = "ICA from latent-variable intuition through whitening, non-Gaussianity, FastICA optimization, mathematical derivation, and implementation in R."
+tags = ["ICA", "Dimensionality Reduction", "R"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/ica_basics/"
+
+[[items]]
+title = "Non-negative Matrix Factorization"
+content = "NMF from intuition to mathematics, including latent components and scores, practical workflows, interpretation of W and H, and an application to leukemia gene-expression data."
+tags = ["NMF", "Dimensionality Reduction", "Gene Expression"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/non_negative_matrix_factorization/"
+
+[[items]]
+title = "Diffusion Maps"
+content = "Diffusion maps for nonlinear dimensionality reduction and trajectory-like structure, from local similarity graphs and random walks through diffusion coordinates, practical use in R and Python, mathematical foundations, and exercises."
+tags = ["Diffusion Maps", "Dimensionality Reduction", "Graph Methods", "R", "Python"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/diffusion_maps/"
+
+[[items]]
+title = "Self-Organizing Maps"
+content = "The theory and practical use of Self-Organizing Maps for high-dimensional data, including training, visualization, clustering, and interpretation."
+tags = ["SOM", "Unsupervised Learning", "Omics"]
+group = "Dimensionality Reduction & Representation"
+link = "https://payamemami.com/self_orginizating_maps_basics/"
+
+
+# ============================================================
+# CLUSTERING & COMMUNITY DETECTION
+# ============================================================
 
 [[items]]
 title = "DBSCAN"
 content = "Density-based clustering from intuition to mathematics, including core, border, and noise points, parameter selection, implementation in R and Python, and exercises using PBMC3k single-cell data."
 tags = ["DBSCAN", "Clustering", "R", "Python"]
+group = "Clustering & Community Detection"
 link = "https://payamemami.com/dbscan/"
 
 [[items]]
 title = "Spectral Clustering"
 content = "Spectral clustering from graph construction and similarity matrices through graph Laplacians, eigenvectors, spectral embedding, connected components, and clustering in the embedded space."
 tags = ["Spectral Clustering", "Graph Methods", "Clustering"]
+group = "Clustering & Community Detection"
 link = "https://payamemami.com/spectral_clustering/"
-
-[[items]]
-title = "Non-negative Matrix Factorization"
-content = "NMF from intuition to mathematics, including latent components and scores, practical workflows, interpretation of W and H, and an application to leukemia gene-expression data."
-tags = ["NMF", "Dimensionality Reduction", "Gene Expression"]
-link = "https://payamemami.com/non_negative_matrix_factorization/"
-
-[[items]]
-title = "SHAP Values"
-content = "SHAP for explaining machine-learning predictions, from intuitive local and global interpretation through practical use in R and Python, Shapley values, KernelSHAP, and a worked case study."
-tags = ["SHAP", "Explainable ML", "Machine Learning", "R", "Python"]
-link = "https://payamemami.com/shap/"
-
-
-[[items]]
-title = "Conformal Prediction"
-content = "Conformal prediction for quantifying uncertainty in machine-learning predictions, including regression intervals, classification prediction sets, calibration, practical workflows in R and Python, mathematical foundations, and exercises with health survey data."
-tags = ["Conformal Prediction", "Uncertainty", "Machine Learning", "R", "Python"]
-link = "https://payamemami.com/conformal_prediction/"
-
-
-[[items]]
-title = "Diffusion Maps"
-content = "Diffusion maps for nonlinear dimensionality reduction and trajectory-like structure, from local similarity graphs and random walks through diffusion coordinates, practical use in R and Python, mathematical foundations, and exercises."
-tags = ["Diffusion Maps", "Dimensionality Reduction", "Graph Methods", "R", "Python"]
-link = "https://payamemami.com/diffusion_maps/"
 
 [[items]]
 title = "Leiden Clustering"
 content = "Leiden clustering for graph-based community detection, from nearest-neighbour graphs and intuitive community structure through practical use in R and Python, the mathematical optimization procedure, aggregation and refinement, and exercises with PBMC3k single-cell data."
 tags = ["Leiden", "Clustering", "Graph Methods", "Single-cell", "R", "Python"]
+group = "Clustering & Community Detection"
 link = "https://payamemami.com/leiden_clustering/"
-
-[[items]]
-title = "LIME"
-content = "LIME for explaining individual machine-learning predictions, from local intuition and neighbourhood generation through practical use in R and Python, locality weighting, surrogate models, mathematical foundations, and exercises with breast-cancer prediction data."
-tags = ["LIME", "Explainable ML", "Machine Learning", "R", "Python"]
-link = "https://payamemami.com/lime/"
 
 [[items]]
 title = "Clustering Evaluation"
 content = "Methods for evaluating and selecting clustering solutions, including internal validation indices, silhouette analysis, gap statistics, stability assessment, consensus clustering, and practical workflows in R and Python."
 tags = ["Clustering", "Cluster Validation", "Stability", "R", "Python"]
+group = "Clustering & Community Detection"
 link = "https://payamemami.com/clustering_evaluation/"
+
+
+# ============================================================
+# MACHINE LEARNING
+# ============================================================
+
+[[items]]
+title = "Random Forest Basics"
+content = "A conceptual and mathematical introduction to decision trees and Random Forests, including splitting, bagging, feature randomness, and variable importance."
+tags = ["Random Forest", "Machine Learning", "R"]
+group = "Machine Learning"
+link = "https://payamemami.com/randomforest-basics/"
+
+[[items]]
+title = "XGBoost"
+content = "XGBoost from intuition to mathematics: sequential boosting, tree-based error correction, objective functions, regularization, and practical implementation in R."
+tags = ["XGBoost", "Boosting", "Machine Learning"]
+group = "Machine Learning"
+link = "https://payamemami.com/xgboost-basics/"
+
+
+# ============================================================
+# EXPLAINABLE & RELIABLE MACHINE LEARNING
+# ============================================================
+
+[[items]]
+title = "SHAP Values"
+content = "SHAP for explaining machine-learning predictions, from intuitive local and global interpretation through practical use in R and Python, Shapley values, KernelSHAP, and a worked case study."
+tags = ["SHAP", "Explainable ML", "Machine Learning", "R", "Python"]
+group = "Explainable & Reliable ML"
+link = "https://payamemami.com/shap/"
+
+[[items]]
+title = "LIME"
+content = "LIME for explaining individual machine-learning predictions, from local intuition and neighbourhood generation through practical use in R and Python, locality weighting, surrogate models, mathematical foundations, and exercises with breast-cancer prediction data."
+tags = ["LIME", "Explainable ML", "Machine Learning", "R", "Python"]
+group = "Explainable & Reliable ML"
+link = "https://payamemami.com/lime/"
+
+[[items]]
+title = "Conformal Prediction"
+content = "Conformal prediction for quantifying uncertainty in machine-learning predictions, including regression intervals, classification prediction sets, calibration, practical workflows in R and Python, mathematical foundations, and exercises with health survey data."
+tags = ["Conformal Prediction", "Uncertainty", "Machine Learning", "R", "Python"]
+group = "Explainable & Reliable ML"
+link = "https://payamemami.com/conformal_prediction/"
+
+
+# ============================================================
+# STATISTICAL MODELLING
+# ============================================================
+
+[[items]]
+title = "Mixed Models"
+content = "Linear mixed models from GLS and variance components through ICC, REML versus ML, random effects, and practical modelling with lme4."
+tags = ["Mixed Models", "Statistics", "R"]
+group = "Statistical Modelling"
+link = "https://payamemami.com/linear_mixed_models/"
