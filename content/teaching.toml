@@ -124,3 +124,9 @@ title = "LIME"
 content = "LIME for explaining individual machine-learning predictions, from local intuition and neighbourhood generation through practical use in R and Python, locality weighting, surrogate models, mathematical foundations, and exercises with breast-cancer prediction data."
 tags = ["LIME", "Explainable ML", "Machine Learning", "R", "Python"]
 link = "https://payamemami.com/lime/"
+
+[[items]]
+title = "Clustering Evaluation"
+content = "Methods for evaluating and selecting clustering solutions, including internal validation indices, silhouette analysis, gap statistics, stability assessment, consensus clustering, and practical workflows in R and Python."
+tags = ["Clustering", "Cluster Validation", "Stability", "R", "Python"]
+link = "https://payamemami.com/clustering_evaluation/"
